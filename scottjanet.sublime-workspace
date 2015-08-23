@@ -1,0 +1,722 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"backgro",
+				"background-color: "
+			],
+			[
+				"heard",
+				"header-font-family"
+			],
+			[
+				"product-tem",
+				"product-item-price"
+			],
+			[
+				"produ",
+				"product-shot-right"
+			],
+			[
+				"medium-s",
+				"medium-screen-up"
+			],
+			[
+				"padding",
+				"padding-bottom: "
+			],
+			[
+				"place",
+				"placeholder"
+			],
+			[
+				"vis",
+				"backface-visibility"
+			],
+			[
+				"noti",
+				"notification"
+			],
+			[
+				"subh",
+				"subheadline-white"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"small-sc",
+				"small-screen-only"
+			],
+			[
+				"button-se",
+				"button-secondary-green"
+			],
+			[
+				"about-farm",
+				"about-farm-graphic"
+			],
+			[
+				"about-on",
+				"about-ondemand-graphic"
+			],
+			[
+				"payment-card-n",
+				"payment-card-number-expiry"
+			],
+			[
+				"base-borde",
+				"base-border-radius"
+			],
+			[
+				"border-b",
+				"border-bottom-radius"
+			],
+			[
+				"line",
+				"linear-gradient"
+			],
+			[
+				"delivery",
+				"delivery-instructions-check"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"bacgk",
+				"background-size"
+			],
+			[
+				"border-right",
+				"border-right-radius"
+			],
+			[
+				"base-border",
+				"base-border-color"
+			],
+			[
+				"text-tran",
+				"text-transform: "
+			],
+			[
+				"zi",
+				"z-index: "
+			],
+			[
+				"transpar",
+				"transparentize	Sass-function"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"secondary-na",
+				"secondary-nav-divide"
+			],
+			[
+				"backg",
+				"background-color: "
+			],
+			[
+				"transpe",
+				"transparentize	Sass-function"
+			],
+			[
+				"backgroun",
+				"background-color: "
+			],
+			[
+				"back",
+				"background-color: "
+			],
+			[
+				"transpa",
+				"transparentize	Sass-function"
+			],
+			[
+				"backgr",
+				"background-color: "
+			],
+			[
+				"backgrou",
+				"background-image	Bourbon"
+			],
+			[
+				"text",
+				"textarea	Tag"
+			],
+			[
+				"paddin",
+				"padding-bottom: "
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"border-top-",
+				"border-top-left-radius: "
+			],
+			[
+				"ba",
+				"background-image: "
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"green",
+				"green-dark"
+			],
+			[
+				"mar",
+				"margin-right: "
+			],
+			[
+				"margin",
+				"margin-right: "
+			],
+			[
+				"modal",
+				"modal-signin"
+			],
+			[
+				"moda",
+				"modal-signin"
+			],
+			[
+				"font",
+				"font-size: "
+			],
+			[
+				"gra",
+				"gray-medium"
+			],
+			[
+				"gray",
+				"gray-dark"
+			],
+			[
+				"g",
+				"gray-line"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"vertical",
+				"vertical-align"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "em",
+		"selected_items":
+		[
+			[
+				"em",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"packager",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"package re",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"sas",
+				"SassBeautify"
+			],
+			[
+				"sass",
+				"SassBeautify"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"e",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"emm",
+				"Emmet: Expand Abbreviation"
+			]
+		],
+		"width": 583.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/scottch/Development/scottsimpson/_sass/main.scss",
+		"/Users/scottch/Development/urbanstems-frontend/sass/base/extends/_button.scss",
+		"/Users/scottch/Development/urbanstems-frontend/sass/base/_buttons.scss",
+		"/Users/scottch/Development/urbanstems-frontend/sass/base/_grid.scss",
+		"/Users/scottch/Development/urbanstems-frontend/sass/modules/_footer.scss",
+		"/Users/scottch/Development/urbanstems-frontend/sass/base/_variables.scss",
+		"/Users/scottch/Development/urbanstems-frontend/sass/base/mixins/_helpers.scss",
+		"/Users/scottch/Development/urbanstems-frontend/sass/base/_hero.scss",
+		"/Users/scottch/Development/urbanstems-frontend/sass/modules/_homepage.scss",
+		"/Users/scottch/Development/urbanstems-frontend/sass/modules/_session.scss",
+		"/Users/scottch/Development/urbanstems-frontend/sass/modules/_basket.scss",
+		"/Users/scottch/Development/urbanstems-frontend/sass/modules/_product.scss",
+		"/Users/scottch/Development/urbanstems-frontend/sass/base/_forms.scss",
+		"/Users/scottch/Development/urbanstems-frontend/sass/base/_typography.scss",
+		"/Users/scottch/Development/urbanstems-frontend/sass/base/_grid-settings.scss",
+		"/Users/scottch/Development/urbanstems-frontend/sass/modules/_nav.scss",
+		"/Users/scottch/Development/urbanstems-frontend/sass/main.scss",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/product/zones-view.js",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/product/dates-view.js",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/product/products-template.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/product/topbarcontroller.js",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/session/exist-form-template.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/session/exist-view-template.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/cart/show-view.js",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/footer/footer-template.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/header/wrap-header-view.js",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/header/wrap-header-layout.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/header/nav-view.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/product/show/template.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/user/user-referrals-view.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/user/profile-view.js",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/user/reset-view.js",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/session/sign-up-form.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/session/reset-template.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/session/sign-up-view.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/session/sign-in-view.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/pages/faq-view.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/home/zipcode_view.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/home/view.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/checkout/success-view.hbs",
+		"/Users/scottch/Documents/Design/UrbanStems Creative/07_Web Ads/Subway Campaign/HTML5/mom_728x90.html",
+		"/Users/scottch/Documents/Design/UrbanStems Creative/07_Web Ads/Subway Campaign/HTML5/mom_300x250.html",
+		"/Users/scottch/Documents/Design/UrbanStems Creative/07_Web Ads/Subway Campaign/HTML5/hangry_728x90.html",
+		"/Users/scottch/Documents/Design/UrbanStems Creative/07_Web Ads/Subway Campaign/HTML5/hangry_300x250.html",
+		"/Users/scottch/Documents/Design/UrbanStems Creative/07_Web Ads/Subway Campaign/HTML5/datenight_728x90.html",
+		"/Users/scottch/Documents/Design/UrbanStems Creative/07_Web Ads/Subway Campaign/HTML5/datenight_300x250.html",
+		"/Users/scottch/Documents/Design/UrbanStems Creative/07_Web Ads/Subway Campaign/HTML5/bridesmaid_728x90.html",
+		"/Users/scottch/Documents/Design/UrbanStems Creative/07_Web Ads/Subway Campaign/HTML5/bridesmaid_300x250.html",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/user/reset-form-view.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/user/template.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/user/reset-view.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/user/reset-not-here.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/session/reset-invalid-template.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/session/reset-sent-template.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/session/reset-form-template.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/cart/cart-view.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/cart/controller.js",
+		"/Users/scottch/Development/urbanstems-frontend/app/simple.html",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/session/exist-view.js",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/session/sign-up-view.js",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/session/exist-form-view.js",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/product/zones-template.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/session/sign-in-view.js",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/product/list/template.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/product/topbar-view.js",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/cart/item/empty.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/cart/list/template.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/cart/item/template.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/cart/item/view.js",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/product/date-template.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/product/layout/template.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/product/products-panel.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/product/zone-template.hbs",
+		"/Users/scottch/Dropbox/Temp Shared/urbanstems-dc/index.html",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/header/cart-btn-view.js",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/header/nav-view.js",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/header/cart-btn-template.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/header/header-help-view.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/header/header-layout.hbs",
+		"/Users/scottch/Development/urbanstems-node/assets/sass/base/mixins/_helpers.scss",
+		"/Users/scottch/Development/urbanstems-frontend/sass/frameworks/bourbon/settings/_px-to-em.scss",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/product/products-view.js",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/product/date-view.js",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/product/product-view.js",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/product/list/view.js",
+		"/Users/scottch/Development/urbanstems-frontend/sass/modules/product.scss",
+		"/Users/scottch/Development/urbanstems-node/assets/sass/base/_typography.scss",
+		"/Users/scottch/Development/urbanstems-frontend/sass/base/_base.scss",
+		"/Users/scottch/Development/urbanstems-node/assets/sass/base/_variables.scss",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/product/dates-template.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/sass/base/_icons.scss",
+		"/Users/scottch/Development/scottsimpson/_config.yml",
+		"/Users/scottch/Development/scottsimpson/_plugins/titleize.rb",
+		"/Users/scottch/Development/scottsimpson/_sass/modules/_writting.scss",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/checkout/checkout-layout-view.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/checkout/recipient/form-recipient-details.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/sass/modules/_checkout.scss",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/checkout/controller.js",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/checkout/message/checkout-message.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/checkout/recipient/checkout-recipient.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/package.json",
+		"/Users/scottch/Dropbox/Apps/KISSr/urbanstems.kissr.com/index2.html",
+		"/Users/scottch/Dropbox/Apps/KISSr/urbanstems.kissr.com/index.html",
+		"/Users/scottch/Documents/Design/UrbanStems/banner/Subway/index.html",
+		"/Users/scottch/Development/urbanstems-frontend/sass/modules/_flowercare.scss",
+		"/Users/scottch/Development/urbanstems-frontend/sass/modules/_hero.scss",
+		"/Users/scottch/Development/urbanstems-frontend/app/templates/template.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/components/time-input-view.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/checkout/time/form-time-picker.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/checkout/time/view.js",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/checkout/time/view.hbs",
+		"/Users/scottch/Development/urbanstems-node/views/layout-pre.handlebars",
+		"/Users/scottch/Development/urbanstems-node/assets/sass/modules/_product.scss",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/product/products-function.js",
+		"/Users/scottch/Development/urbanstems-node/assets/sass/modules/_hero.scss",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/checkout/time/times-view.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/checkout/time/time-view.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/header/account-header-view.hbs",
+		"/Users/scottch/Development/urbanstems-frontend/app/modules/header/notification-view.js",
+		"/Users/scottch/Development/urbanstems-frontend/app/common/loading-view.hbs",
+		"/Users/scottch/Development/urbanstems-node/assets/sass/base/_grid-settings.scss",
+		"/Users/scottch/Development/urbanstems-node/assets/sass/modules/_flowercare.scss",
+		"/Users/scottch/Development/urbanstems-node/assets/sass/modules/_nav.scss",
+		"/Users/scottch/Development/urbanstems-node/assets/js/app.js",
+		"/Users/scottch/Development/urbanstems-node/assets/sass/main.scss",
+		"/Users/scottch/Development/scottsimpson/config/deploy.rb",
+		"/Users/scottch/Development/scottsimpson/_includes/footer.html",
+		"/Users/scottch/Development/urbanstems-subscriptions/sass/base/_grid-settings.scss"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"zone",
+			"date",
+			"js-date",
+			"dateErr",
+			"basket-not",
+			"font-size",
+			"2",
+			"base-font",
+			"z-index",
+			"80",
+			"products",
+			"product",
+			"products",
+			"product",
+			"delivery city",
+			"browser",
+			"change",
+			"ie9",
+			"the perfect",
+			"referral",
+			"tweet",
+			"twitter",
+			"your account credits",
+			"container-4",
+			"container-6",
+			"user-referrals",
+			"referral",
+			"FAQ",
+			"urbanstems, inc",
+			"mired",
+			"llc",
+			"Mired",
+			"recipientDetails",
+			"document.",
+			"recipient",
+			"formance",
+			"pin",
+			"<<<<",
+			"14",
+			"welcome",
+			"<<<<<",
+			"payment",
+			"Review",
+			"join our mailing",
+			"signup for",
+			"media",
+			"basket",
+			"basket-container",
+			"shift-3",
+			"reset-sent",
+			"exist-view",
+			"exist-vie",
+			"reset-sent",
+			"shift-3",
+			"sign-in",
+			"signin-container",
+			"sign in",
+			"reset password",
+			"Hi there!",
+			"welcome",
+			"add to ba",
+			"expiry",
+			"month",
+			"exp",
+			"expiry date",
+			"add to basket",
+			"row-pag",
+			"select",
+			"help &amp; faq",
+			"media",
+			"help &amp; FAQ",
+			"span",
+			"top:",
+			"media",
+			"sign in",
+			"victory dance",
+			"dt",
+			"dl",
+			"basket-container",
+			"delivery",
+			"600",
+			"footer",
+			"terms",
+			"primary-nav",
+			"footer",
+			"’",
+			"users",
+			"”",
+			"“",
+			"’",
+			"§",
+			"“",
+			"”",
+			"'",
+			"terms",
+			"height",
+			"add to cart",
+			"signature mix",
+			"credit-card",
+			"cvc",
+			"visa",
+			"creditcard",
+			"className",
+			"name",
+			"class",
+			"//",
+			"selectordie",
+			"product",
+			"flower care",
+			"subheadline",
+			"add to",
+			"delivery date",
+			"delivery city",
+			"city",
+			"privacy",
+			"terms",
+			"chartreuse",
+			"footer",
+			"getcity",
+			"/products",
+			"padding: 6em 0",
+			"flower care",
+			"city",
+			"selectordie",
+			"our flowers",
+			"selectordie",
+			"no-padding",
+			"rose"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'",
+			"\"",
+			"'",
+			"&sect;",
+			"\"",
+			"basket-container",
+			"page-container-inner",
+			"page-container",
+			"page-overlay"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 92.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "scottjanet.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"b",
+				"~/Development/urbanstems-frontend/sass/base/_forms.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 400.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
