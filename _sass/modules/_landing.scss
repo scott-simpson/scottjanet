@@ -1,0 +1,30 @@
+/* ****************************************************************************
+ * Landing                                                                    *
+ **************************************************************************** */
+ .landing {
+  background: url(../img/landing.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  color: $white;
+  text-align: center;
+  
+  .heading {
+    padding: 30% 0;
+  }
+
+  h1 {
+    line-height: 1;
+  }
+
+  .countdown {
+    font-family: $sans-serif;
+    font-size: modular-scale(-1);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    span {
+      display: block;
+      font-family: $serif;
+      font-size: modular-scale(2);
+    }
+  }
+
+ }
