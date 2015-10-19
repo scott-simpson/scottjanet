@@ -1,0 +1,28 @@
+/* ****************************************************************************
+ * Headers                                                                    *
+ **************************************************************************** */
+ .page-header {
+  background-size: cover;
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+  
+  h1 {
+    color: $white;
+    font-size: modular-scale(5);
+    font-weight: 400;
+  }
+
+  .page-header-text {
+    text-align: center;
+    padding: 40% 0;
+  }
+
+  @include media($medium-screen-up) {
+    h1 {
+      font-size: modular-scale(7);
+    }
+    .page-header-text {
+      padding: 18% 0;
+    }
+  }
+ }

@@ -4,6 +4,21 @@
 .row {
   @include row;
 }
+
 .wrap {
   @include outer-container;
+  padding: 0 1.5em;
+}
+
+.wrap-page {
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.show {
+  display: block !important;
 }

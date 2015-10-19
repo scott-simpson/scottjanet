@@ -1,18 +1,21 @@
-<header class="site-header">
+<header class="row">
 
-  <div class="wrapper">
+  <div class="wrap">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <div class="site-title"><a href="{{ site.baseurl }}/">{{ site.title }}</a></div>
 
-    <nav class="site-nav">
-
-      <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
+    <nav class="nav-collapse">
+      {% assign pages = site.pages | sort:"weight"  %}
+      <ul>
+        {% for p in pages %}
+        <li>
+          <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">
+            {{ p.title }}
+          </a>
+        </li>
         {% endfor %}
-      </div>
+        <li><a class="rsvp-button" href="#">RSVP</a></li>
+      </ul>
     </nav>
 
   </div>

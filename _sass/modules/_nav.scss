@@ -1,0 +1,102 @@
+/* ****************************************************************************
+ * Navigation                                                                 *
+ **************************************************************************** */
+ header {
+  @include position(absolute, 0em null null null);
+  width: 100%;
+
+  .site-title {
+    float: left;
+    margin-top: 0.5em;
+    a {
+      color: $white;
+      font-size: modular-scale(1);
+      text-decoration: none;
+    }
+  }
+
+  nav {
+    float: right;
+    @include media($small-screen-only) {
+
+    }
+  }
+
+  li {
+    float: left;
+    padding: 0.5em 1em;
+
+    a {
+      color: $white;
+      font-family: $sans-serif;
+      font-size: modular-scale(-2);
+      letter-spacing: 1px;
+      padding-bottom: 5px;
+      text-decoration: none;
+      text-transform: uppercase;
+      &:hover {
+        border-bottom: 2px solid $white;
+        color: $white;
+      }
+    }
+
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+
+ }
+
+@include media($small-screen-only) {
+  nav {
+    background-color: $white;
+  }
+  .nav-collapse ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: block;
+    list-style: none;
+  }
+
+  .nav-collapse li {
+    width: 100%;
+    display: block;
+  }
+
+  .js .nav-collapse {
+    clip: rect(0 0 0 0);
+    max-height: 0;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    zoom: 1;
+  }
+
+  .nav-collapse.opened {
+    max-height: 9999px;
+  }
+
+  .nav-toggle {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+  }
+}
+
+
+@include media($medium-screen-up) {
+  .js .nav-collapse {
+    position: relative;
+  }
+  .js .nav-collapse.closed {
+    max-height: none;
+  }
+  .nav-toggle {
+    display: none;
+  }
+}

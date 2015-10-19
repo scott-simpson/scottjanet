@@ -1,0 +1,82 @@
+/* ****************************************************************************
+ * Registry                                                                    *
+ **************************************************************************** */
+ .registry-honeymoon {
+  padding: 4em 0;
+  .registry-honeymoon-text {
+    text-align: center;
+  }
+  h2 {
+    font-size: modular-scale(-1);
+    margin-bottom: 1em;
+  }
+  p {
+    margin-bottom: 2em;
+  }
+  @include media($medium-screen-up) {
+    padding: 6em 0;
+    .registry-honeymoon-text {
+      @include span-columns(6 of 12);
+      @include shift(3);
+    }
+  }
+ }
+
+ .registry-korea {
+  h3 {
+    font-size: modular-scale(-1);
+    margin-bottom: 1em;
+  }
+  h4 {
+    margin-bottom: 0.5em;
+    span {
+      display: block;
+      line-height: 1;
+      font-size: modular-scale(-5);
+    }
+  }
+  .registry-korea-text {
+    text-align: center;
+    padding: 2em 0;
+  }
+  li {
+    border-bottom: 1px solid $base-border-color;
+    padding: 1.75em 0 1.25em 0;
+    text-align: center;
+  }
+  @include media($medium-screen-up) {
+    .registry-korea-image {
+      @include span-columns(10 of 12);
+      @include shift(1);
+    }
+    .registry-korea-text {
+      @include span-columns(6 of 12);
+      @include shift(3);
+      padding: 4em 0;
+    }
+    ul {
+      align-content: center;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    li {
+      @include omega(2n);
+      border-right: 1px solid $base-border-color;
+      float: left;
+      padding: 2em;
+      position: relative;
+      width: 50%;
+      align-self:stretch;
+      display:flex;
+      align-items:center;
+      &:nth-child(2n) {
+        border-right: none;
+      }
+      &:last-child {
+        border-right: none;
+      }
+    }
+  }
+ }

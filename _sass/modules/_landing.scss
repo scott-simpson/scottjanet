@@ -2,29 +2,43 @@
  * Landing                                                                    *
  **************************************************************************** */
  .landing {
-  background: url(../img/landing.jpg) no-repeat 50% 50%;
+  @include size(100%);
+  background: url(../img/landing.jpg) no-repeat 65% 50% fixed;
   background-size: cover;
   color: $white;
   text-align: center;
   
   .heading {
-    padding: 30% 0;
+    padding: 40% 0 60% 0;
   }
 
   h1 {
+    font-size: 3em;
     line-height: 1;
   }
 
   .countdown {
+    @include position(absolute, null 0 1em 0);
+    display: inline-block;
     font-family: $sans-serif;
     font-size: modular-scale(-1);
     letter-spacing: 1px;
+    line-height: 1.75em;
+    margin: 0 auto;
     text-transform: uppercase;
     span {
       display: block;
       font-family: $serif;
-      font-size: modular-scale(2);
+      font-size: modular-scale(4);
     }
   }
 
+  @include media($medium-screen-up) {
+    .heading {
+      padding: 20% 0 30% 0;
+    }
+    h1 {
+      font-size: modular-scale(7);
+    }
+  }
  }

@@ -1,0 +1,32 @@
+/* ****************************************************************************
+ * Our Story                                                                    *
+ **************************************************************************** */
+  .our-story-body {
+    padding: 2em 0;
+  }
+  .our-story-item {
+    @include media($medium-screen-up) {
+      margin: 2em 0;
+      @include omega(2n);
+      @include span-columns(6 of 12);
+    }
+  }
+ .our-story-text {
+  padding: 2em 0 4em 0;
+  text-align: center;
+  h3 {
+    span {
+      display: block;
+      font-size: modular-scale(-5);
+      line-height: 1;
+      margin-bottom: 0.5em;
+    }
+    margin-bottom: 0.5em;
+  }
+  @include media($medium-screen-up) {
+    padding: 2em 2em 4em 2em;
+    h3 {
+      font-size: modular-scale(3);
+    }
+  }
+ }

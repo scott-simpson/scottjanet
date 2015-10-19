@@ -10,63 +10,171 @@
   <meta name="description" content="Scott and Janet are getting married. Join them on April 9.">
   <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic|Montserrat' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/css/main.css">
+  <link href='https://api.mapbox.com/mapbox.js/v2.2.1/mapbox.css' rel='stylesheet' />
+
   <link rel="canonical" href="http://scottjanet.com/">
   <link rel="alternate" type="application/rss+xml" title="Scott & Janet" href="http://scottjanet.com/feed.xml" />
+  <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="/bower_components/jquery.countdown/dist/jquery.countdown.js"></script>
+  <script src="/bower_components/parsleyjs/dist/parsley.min.js"></script>
+  <script src="/js/responsive-nav.min.js"></script>
+  <script src="/js/main.js"></script>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+  <script type="text/javascript">
+     google.maps.event.addDomListener(window, 'load', init);  
+    function init() {
+      var mapOptions = {
+        zoom: 11,
+        center: new google.maps.LatLng(37.8439105, -79.5824969),
+        scrollwheel: false,
+        mapTypeControl: false,
+        streetViewControl: false,
+        styles: [{"featureType":"landscape","stylers":[{"hue":"#FFBB00"},{"saturation":10.400000000000006},{"lightness":37.599999999999994},{"gamma":1}]},{"featureType":"road.highway","stylers":[{"hue":"#FFC200"},{"saturation":-61.8},{"lightness":45.599999999999994},{"gamma":1}]},{"featureType":"road.arterial","stylers":[{"hue":"#FF0300"},{"saturation":-100},{"lightness":51.19999999999999},{"gamma":1}]},{"featureType":"road.local","stylers":[{"hue":"#FF0300"},{"saturation":-100},{"lightness":52},{"gamma":1}]},{"featureType":"water","stylers":[{"hue":"#0078FF"},{"saturation":-13.200000000000003},{"lightness":2.4000000000000057},{"gamma":1}]},{"featureType":"poi","stylers":[{"hue":"#00FF6A"},{"saturation":-1.0989010989011234},{"lightness":11.200000000000017},{"gamma":1}]}]
+      };
+
+      // Get the HTML DOM element that will contain your map 
+      // We are using a div with id="map" seen below in the <body>
+      var mapElement = document.getElementById('map');
+
+      // Create the Google Map using our element and options defined above
+      var map = new google.maps.Map(mapElement, mapOptions);
+            
+    }
+  </script>
 </head>
 
-
+  
   <body>
 
-    <header class="site-header">
+    <header class="row">
 
-  <div class="wrapper">
+  <div class="wrap">
 
-    <a class="site-title" href="/">Scott & Janet</a>
+    <div class="site-title"><a href="/">Scott & Janet</a></div>
 
-    <nav class="site-nav">
-
-      <div class="trigger">
+    <nav class="nav-collapse">
+      
+      <ul>
         
-          
+        <li>
+          <a  href="/feed.xml">
+            
+          </a>
+        </li>
         
-          
+        <li>
+          <a class="active" href="/index.html">
+            
+          </a>
+        </li>
         
-          
+        <li>
+          <a  href="/css/main.css">
+            
+          </a>
+        </li>
         
-          
-          <a class="page-link" href="/ourstory/">Our Story</a>
-          
+        <li>
+          <a  href="/where/">
+            Where & When
+          </a>
+        </li>
         
-          
-          <a class="page-link" href="/registry/">Registry</a>
-          
+        <li>
+          <a  href="/registry/">
+            Registry
+          </a>
+        </li>
         
-          
-          <a class="page-link" href="/where/">Where & When</a>
-          
+        <li>
+          <a  href="/ourstory/">
+            Our Story
+          </a>
+        </li>
         
-      </div>
+        <li><a class="rsvp-button" href="#">RSVP</a></li>
+      </ul>
     </nav>
 
   </div>
 
 </header>
 
-
-    <div class="page-content">
-      <div class="wrapper">
+    <section class="rsvp">
+  <div class="wrap">
+    <a href="#" class="rsvp-button">Close</a>
+    <div class="rsvp-container">
+      <h2>RSVP</h2>
+      <form action="https://docs.google.com/forms/d/17NtYJOu4lbrRGO2roD7dgsKAWGzu7ie_o0BW78E33GQ/formResponse" method="POST" id="ss-form" target="_self" id="rsvpform" onsubmit="" data-parsley-validate>
+        <div class="form-section row">
+          <label class="radio-label">Will You Be Attending?</label>
+          <input type="radio" name="entry.1373340682" value="No" id="group_1373340682_2" role="radio" class="attending" aria-label="No" required="" aria-required="true">
+          <label for="group_1373340682_2" class="ss-choice-label">No</label>
+          <input type="radio" name="entry.1373340682" value="Yes" id="group_1373340682_1" role="radio" class="attending" aria-label="Yes" required="" aria-required="true" checked="checked">
+          <label for="group_1373340682_1" class="ss-choice-label">Yes</label>
+        </div>
+        <div class="form-section">
+          <div class="row">
+            <div class="form-name">
+              <label>First Name</label>
+              <input type="text" name="entry.1704553044" value="" class="" id="entry_1704553044" dir="auto" aria-label="First Name  Must contain " aria-required="true" required="" pattern=".*.*" title="Must contain ">
+            </div>
+            <div class="form-name">
+              <label>Last Name</label>
+              <input type="text" name="entry.959832654" value="" class="" id="entry_959832654" dir="auto" aria-label="Last Name  Must contain " aria-required="true" required="" pattern=".*.*" title="Must contain ">
+            </div>
+          </div>
+          <div class="row">
+            <label>Email Address</label>
+            <input type="email" name="entry.1690607343" value="" class="" id="entry_1690607343" dir="auto" aria-label="Email Address  Must be a valid email address" aria-required="true" required="" title="Must be a valid email address">
+          </div>
+        </div>
+        <div class="form-section guest">
+          <div class="row">
+            <label class="radio-label">Will You Bring A Guest?</label>
+            <input type="radio" name="entry.1325953934" value="No" id="group_1325953934_2" role="radio" class="bringguest" aria-label="No" checked="checked">
+            <label for="group_1325953934_2" class="ss-choice-label">No</label>
+            <input type="radio" name="entry.1325953934" value="Yes" id="group_1325953934_1" role="radio" class="bringguest" aria-label="Yes">
+            <label for="group_1325953934_1" class="ss-choice-label">Yes</label>
+          </div>
+          <div class="guestname row hidden">
+            <div class="form-name">
+              <label>Guest's First Name</label>
+              <input type="text" name="entry.1224968734" value="" class="ss-q-short" id="entry_1224968734" dir="auto" aria-label="Guest&#39;s First Name  " title="">
+            </div>
+            <div class="form-name">
+              <label>Guest's Last Name</label>
+              <input type="text" name="entry.1787987950" value="" class="ss-q-short" id="entry_1787987950" dir="auto" aria-label="Guest&#39;s Last Name  " title="">
+            </div>
+          </div>
+        </div>
+        <div class="form-section form-button">
+          <input type="submit" name="submit" value="Submit RSVP" id="ss-submit" class="jfk-button jfk-button-action button button-secondary button-large">
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+<section class="page-overlay"></section>
         <section class="landing row">
   <div class="wrap">
     <div class="heading">
       <h1>Scott &amp; Janet</h1>
       <p class="allcaps">Lexington, VA &mdash; April 9, 2016</p>
     </div>
-    <div class="countdown">Days To Go <span>150</span></div>
+    <div class="countdown"></div>
   </div>
 </section>
+<script>
+$('.countdown').countdown("04/09/2016", {elapse: true}).on('update.countdown', function(event) {
+    if (event.elapsed) {
+      $(this).html(event.strftime('Days Married <span>%D</span>'));
+    } else {
+      $(this).html(event.strftime('Days To Go <span>%D</span>'));
+    }
+  });
+</script>
 
-      </div>
-    </div>
 
   </body>
 

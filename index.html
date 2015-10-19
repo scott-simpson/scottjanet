@@ -8,6 +8,15 @@ layout: landing
       <h1>Scott &amp; Janet</h1>
       <p class="allcaps">Lexington, VA &mdash; April 9, 2016</p>
     </div>
-    <div class="countdown">Days To Go <span>150</span></div>
+    <div class="countdown"></div>
   </div>
 </section>
+<script>
+$('.countdown').countdown("04/09/2016", {elapse: true}).on('update.countdown', function(event) {
+    if (event.elapsed) {
+      $(this).html(event.strftime('Days Married <span>%D</span>'));
+    } else {
+      $(this).html(event.strftime('Days To Go <span>%D</span>'));
+    }
+  });
+</script>
