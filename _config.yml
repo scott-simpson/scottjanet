@@ -2,7 +2,7 @@
 title: Scott & Janet
 email: hello@scottsimpson.co
 description: Scott and Janet are getting married. Join them on April 9.
-baseurl: "./" # the subpath of your site, e.g. /blog/
+baseurl: "." # the subpath of your site, e.g. /blog/
 url: "http://scottjanet.com" # the base hostname & protocol for your site
 twitter_username: creative_cabin
 github_username:  scott-simpson
