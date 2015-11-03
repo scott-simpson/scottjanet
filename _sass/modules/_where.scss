@@ -91,6 +91,9 @@
 .where-notes {
   background-color: $light-gray;
   padding: 2em;
+  a {
+    text-decoration: none;
+  }
   @include media($medium-screen-up) {
     @include span-columns(6 of 8);
   }
@@ -186,17 +189,21 @@
 }
 
 .what-to-do {
-  padding: 4em 0;
+  padding: 4em 0 2em 0;
   li {
     border-bottom: 1px solid $base-border-color;
     font-size: modular-scale(1);
-    padding: 1.75em 0 1.25em 0;
     &:first-child {
       border-top: 1px solid $base-border-color;
     }
   }
   p {
     margin-bottom: 2em;
+  }
+  a {
+    display: block;
+    text-decoration: none;
+    padding: 1.75em 0 1.25em 0;
   }
   span {
     display: block;
@@ -209,7 +216,7 @@
     text-transform: uppercase;
   }
   @include media($medium-screen-up) {
-    padding: 8em 0;
+    padding: 8em 0 4em 0;
     p {
       @include span-columns(6 of 12);
       @include shift(3);
@@ -227,7 +234,6 @@
       font-size: modular-scale(2);
       float: left;
       line-height: 1.25em;
-      padding: 2em 1em;
       position: relative;
       width: 33%;
       &:first-child {
@@ -239,6 +245,9 @@
       &:nth-last-child(-n+3) {
         border-bottom: none;
       }
+    }
+    a {
+      padding: 2em 1em;
     }
   }
 }

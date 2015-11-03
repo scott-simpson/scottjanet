@@ -30,6 +30,8 @@ $(document).ready(function(){
     $('.page-overlay').toggleClass("show-overlay");
   });
 
-  var nav = responsiveNav(".nav-collapse");
+  var nav = responsiveNav(".nav-collapse", {
+    openPos: 'static'
+  });
 
 });

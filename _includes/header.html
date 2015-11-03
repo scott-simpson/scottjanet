@@ -4,9 +4,9 @@
 
     <div class="site-title"><a href="{{ site.baseurl }}/">{{ site.title }}</a></div>
 
-    <nav class="nav-collapse">
+    <nav>
       {% assign pages = site.pages | sort:"weight"  %}
-      <ul>
+      <ul class="nav-collapse">
         {% for p in pages %}
         <li>
           <a {% if p.url == page.url %}class="active"{% endif %} href="{{ site.baseurl }}{{ p.url }}">

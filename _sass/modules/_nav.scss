@@ -48,10 +48,9 @@
  }
 
 @include media($small-screen-only) {
-  nav {
-    background-color: $white;
-  }
-  .nav-collapse ul {
+
+  .nav-collapse {
+    background-color: $purple;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -78,6 +77,8 @@
   }
 
   .nav-toggle {
+    @include position(absolute, 0.75em 1.5em null null);
+    color: $white !important;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -85,6 +86,13 @@
     -ms-user-select: none;
     -o-user-select: none;
     user-select: none;
+    text-decoration: none;
+    &:hover {
+      color: $white;
+    }
+    &:active {
+      color: $white;
+    }
   }
 }
 

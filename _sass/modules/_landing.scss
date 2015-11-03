@@ -9,7 +9,7 @@
   text-align: center;
   
   .heading {
-    padding: 40% 0 60% 0;
+    padding: 40% 0 0 0;
   }
 
   h1 {
@@ -35,7 +35,7 @@
 
   @include media($medium-screen-up) {
     .heading {
-      padding: 20% 0 30% 0;
+      padding: 20% 0 0 0;
     }
     h1 {
       font-size: modular-scale(7);
