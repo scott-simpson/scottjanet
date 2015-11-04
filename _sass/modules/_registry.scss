@@ -50,6 +50,7 @@
       @include shift(1);
     }
     .registry-korea-text {
+      float: none !important;
       @include span-columns(6 of 12);
       @include shift(3);
       padding: 4em 0;
