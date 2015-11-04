@@ -558,23 +558,34 @@ header {
   header nav {
     float: right; }
   header li {
-    float: left;
-    padding: 0.5em 1em; }
+    float: left; }
     header li a {
       color: #FFFFFF;
+      display: inline-block;
       font-family: "Montserrat" "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
       font-size: 0.69444em;
       letter-spacing: 1px;
-      padding-bottom: 5px;
+      padding: 1.5em;
       text-decoration: none;
       text-transform: uppercase; }
       header li a:hover {
-        border-bottom: 2px solid #FFFFFF;
+        box-shadow: inset 0px 3px 0px #FFFFFF;
         color: #FFFFFF; }
+    header li.current a {
+      box-shadow: inset 0px 3px 0px #FFFFFF; }
     header li:last-child {
       padding-right: 0; }
 
 @media screen and (max-width: 39.94444em) {
+  header .wrap {
+    padding: 0; }
+
+  .site-title {
+    padding-left: 1.5rem; }
+
+  nav {
+    width: 100%; }
+
   .nav-collapse {
     background-color: #23223F;
     margin: 0;
@@ -585,7 +596,16 @@ header {
 
   .nav-collapse li {
     width: 100%;
-    display: block; }
+    display: block;
+    text-align: center; }
+    .nav-collapse li a {
+      font-size: 0.88235em;
+      padding: 2em 1.5em;
+      text-align: center; }
+      .nav-collapse li a:hover {
+        box-shadow: none; }
+    .nav-collapse li.current a {
+      box-shadow: none; }
 
   .js .nav-collapse {
     clip: rect(0 0 0 0);
@@ -600,8 +620,8 @@ header {
 
   .nav-toggle {
     position: absolute;
-    top: 0.75em;
-    right: 1.5em;
+    top: 0em;
+    right: 0em;
     color: #FFFFFF !important;
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
@@ -609,6 +629,7 @@ header {
     -moz-user-select: none;
     -ms-user-select: none;
     -o-user-select: none;
+    padding: 0.75em 1.5em;
     user-select: none;
     text-decoration: none; }
     .nav-toggle:hover {

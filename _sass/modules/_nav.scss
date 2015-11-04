@@ -24,22 +24,24 @@
 
   li {
     float: left;
-    padding: 0.5em 1em;
 
     a {
       color: $white;
+      display: inline-block;
       font-family: $sans-serif;
       font-size: modular-scale(-2);
       letter-spacing: 1px;
-      padding-bottom: 5px;
+      padding: 1.5em;
       text-decoration: none;
       text-transform: uppercase;
       &:hover {
-        border-bottom: 2px solid $white;
+        box-shadow: inset 0px 3px 0px $white;
         color: $white;
       }
     }
-
+    &.current a {
+      box-shadow: inset 0px 3px 0px $white;
+    }
     &:last-child {
       padding-right: 0;
     }
@@ -48,6 +50,18 @@
  }
 
 @include media($small-screen-only) {
+
+  header .wrap {
+    padding: 0;
+  }
+
+  .site-title {
+    padding-left: 1.5rem;
+  }
+
+  nav {
+    width: 100%;
+  }
 
   .nav-collapse {
     background-color: $purple;
@@ -61,6 +75,18 @@
   .nav-collapse li {
     width: 100%;
     display: block;
+    text-align: center;
+    a {
+      font-size: em(15);
+      padding: 2em 1.5em;
+      text-align: center;
+      &:hover {
+        box-shadow: none;
+      }
+    }
+    &.current a {
+      box-shadow: none;
+    }
   }
 
   .js .nav-collapse {
@@ -77,7 +103,7 @@
   }
 
   .nav-toggle {
-    @include position(absolute, 0.75em 1.5em null null);
+    @include position(absolute, 0em 0em null null);
     color: $white !important;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     -webkit-touch-callout: none;
@@ -85,6 +111,7 @@
     -moz-user-select: none;
     -ms-user-select: none;
     -o-user-select: none;
+    padding: 0.75em 1.5em;
     user-select: none;
     text-decoration: none;
     &:hover {

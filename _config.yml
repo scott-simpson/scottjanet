@@ -9,3 +9,12 @@ github_username:  scott-simpson
 
 # Build settings
 markdown: kramdown
+
+#navigation
+navigation:
+ - title: Where & When
+   url: /where/
+ - title: Registry
+   url: /registry/
+ - title: Our Story
+   url: /ourstory/
