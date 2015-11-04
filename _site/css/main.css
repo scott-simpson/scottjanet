@@ -220,7 +220,7 @@ input[type="submit"], .button {
   -webkit-font-smoothing: antialiased;
   border-radius: none;
   display: inline-block;
-  font-family: "Montserrat" "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-size: 0.83333em;
   font-weight: normal;
   letter-spacing: 1px;
@@ -249,9 +249,10 @@ html, body {
 
 body {
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   background-color: #FFFFFF;
   color: #23223F;
-  font-family: "Lora" "Georgia", "Cambria", "Times New Roman", "Times", serif;
+  font-family: "Lora", "Georgia", "Cambria", "Times New Roman", "Times", serif;
   font-size: 1.063em;
   line-height: 1.86025; }
   @media screen and (max-width: 39.94444em) {
@@ -259,13 +260,13 @@ body {
       font-size: 95%; } }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Lora" "Georgia", "Cambria", "Times New Roman", "Times", serif;
+  font-family: "Lora", "Georgia", "Cambria", "Times New Roman", "Times", serif;
   font-weight: normal;
   line-height: 1.32875em;
   margin: 0;
   text-rendering: optimizeLegibility; }
   h1.allcaps, h1 .allcaps, h2.allcaps, h2 .allcaps, h3.allcaps, h3 .allcaps, h4.allcaps, h4 .allcaps, h5.allcaps, h5 .allcaps, h6.allcaps, h6 .allcaps {
-    font-family: "Montserrat" "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    font-family: "Montserrat", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
     font-weight: 600;
     letter-spacing: 1px;
     text-transform: uppercase; }
@@ -291,7 +292,7 @@ h6 {
 p {
   margin: 0 0 0.93013em; }
   p.allcaps {
-    font-family: "Montserrat" "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    font-family: "Montserrat", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
     font-size: 0.83333em;
     letter-spacing: 1px;
     text-transform: uppercase; }
@@ -344,11 +345,11 @@ input,
 label,
 select {
   display: block;
-  font-family: "Lora" "Georgia", "Cambria", "Times New Roman", "Times", serif;
+  font-family: "Lora", "Georgia", "Cambria", "Times New Roman", "Times", serif;
   font-size: 1.063em; }
 
 label {
-  font-family: "Montserrat" "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-size: 0.69444em;
   font-weight: normal;
   letter-spacing: 1px;
@@ -373,7 +374,7 @@ select[multiple=multiple] {
   border: 1px solid #9a98c8;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
   color: #FFFFFF;
-  font-family: "Lora" "Georgia", "Cambria", "Times New Roman", "Times", serif;
+  font-family: "Lora", "Georgia", "Cambria", "Times New Roman", "Times", serif;
   font-size: 1.063em;
   margin-bottom: 0.93013em;
   outline: none;
@@ -562,7 +563,7 @@ header {
     header li a {
       color: #FFFFFF;
       display: inline-block;
-      font-family: "Montserrat" "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+      font-family: "Montserrat", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
       font-size: 0.69444em;
       letter-spacing: 1px;
       padding: 1.5em;
@@ -666,7 +667,7 @@ header {
     bottom: 1em;
     left: 0;
     display: inline-block;
-    font-family: "Montserrat" "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    font-family: "Montserrat", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
     font-size: 0.83333em;
     letter-spacing: 1px;
     line-height: 1.75em;
@@ -674,7 +675,7 @@ header {
     text-transform: uppercase; }
     .landing .countdown span {
       display: block;
-      font-family: "Lora" "Georgia", "Cambria", "Times New Roman", "Times", serif;
+      font-family: "Lora", "Georgia", "Cambria", "Times New Roman", "Times", serif;
       font-size: 2.0736em; }
   @media screen and (min-width: 40em) {
     .landing .heading {
@@ -708,7 +709,7 @@ header {
   .rsvp .rsvp-button {
     color: #FFFFFF;
     float: right;
-    font-family: "Montserrat" "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    font-family: "Montserrat", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
     font-size: 0.69444em;
     letter-spacing: 1px;
     margin: 1rem 0;
@@ -897,7 +898,7 @@ header {
   padding: 0.5em; }
   .note-list span {
     display: block;
-    font-family: "Montserrat" "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    font-family: "Montserrat", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
     font-size: 0.48225em;
     font-weight: 600;
     letter-spacing: 1px;
@@ -953,7 +954,7 @@ header {
     padding: 1.75em 0 1.25em 0; }
   .what-to-do span {
     display: block;
-    font-family: "Montserrat" "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    font-family: "Montserrat", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
     font-size: 0.40188em;
     font-weight: 600;
     letter-spacing: 1px;
